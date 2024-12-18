@@ -1,14 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="out/style.css">
-</head>
-<body>
-    <p class="text-3xl text-yellow-400">
-        Hello World
-    </p>
-</body>
+    <link rel="stylesheet" href="out/style.css" />
+  </head>
+  <body>
+    <div class="h-screen bg-primary">
+      <nav class="flex justify-between px-8 h-16 items-center">
+        <img src="src/images/logo.svg" alt="logo" />
+        <div class="lg:flex gap-7 hidden">
+          <a
+            href="#"
+            class="font-semibold text-neutral-200/90 hover:text-neutral-50 transition-colors"
+            >Features</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-neutral-200/90 hover:text-neutral-50 transition-colors"
+            >Intégrations</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-neutral-200/90 hover:text-neutral-50 transition-colors"
+            >Pricing</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-neutral-200/90 hover:text-neutral-50 transition-colors"
+            >Blog</a
+          >
+        </div>
+        <div
+          class="hidden lg:flex gap-8 items-center font-semibold text-neutral-50"
+        >
+          <a>Login</a>
+          <button
+            class="text-neutral-50 font-semibold border border-neutral-50 rounded-full px-4 py-2 hover:bg-neutral-50/90 transition-colors hover:text-neutral-900"
+          >
+            Get started
+          </button>
+        </div>
+        <div class="lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="white"
+              d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m12 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m-6 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2"
+            />
+          </svg>
+        </div>
+      </nav>
+      <div
+        class="mx-auto flex my-16 flex-col gap-8 max-w-screen-lg w-full items-center"
+      >
+        Overlapping images on each other
+        <div class="flex">
+          <img src="src/images/persons.svg" alt="persons" />
+          <img src="src/images/persons.svg" alt="persons" />
+          <img src="src/images/persons.svg" alt="persons" />
+          <img src="src/images/persons.svg" alt="persons" />
+          <img src="src/images/persons.svg" alt="persons" />
+        </div>
+        <p class="text-center text-5xl font-bold text-neutral-50">
+          Streamline You Workflow, Maximize Productivity
+        </p>
+        <p class="text-neutral-100/90">
+          Discover a selection of optimal tools designed to elevate productivity
+          for you and your team. Covering analytics, project management and
+          beyond
+        </p>
+        <div class="flex gap-8">
+          <button
+            class="px-5 py-2 font-semibold text-neutral-800 rounded-full bg-secondary hover:bg-secondary/90 transition-colors"
+          >
+            Get started
+          </button>
+          <button class="flex gap-4 items-center font-semibold text-neutral-50">
+            Learn more
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="">
+        <img
+          src="src/images/screen.svg"
+          alt="screen"
+          class="mx-auto lg:mt-[-10rem]"
+        />
+        <div class="my-16 flex flex-col gap-6">
+          <p class="font-bold text-xl text-center">
+            The best remote teams love Sooner
+          </p>
+          <img src="src/images/logos.svg" alt="logo" class="mx-auto" />
+        </div>
+        <div
+          class="flex justify-around px-8 gap-8 flex-col-reverse md:flex-row"
+        >
+          <div class="flex flex-col gap-6 max-w-md w-full">
+            <img class="size-8" src="src/images/logo-round.svg" alt="persons" />
+            <p class="font-bold text-3xl">Project Overview</p>
+            <p>
+              Track and manage and manage all projects very easy without back
+              and forth.
+            </p>
+            <p>
+              Discover who is working on what and see your team members
+              performance.
+            </p>
+            <a href="#" class="flex gap-4 items-center font-semibold">
+              Book a demo
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6z"
+                />
+              </svg>
+            </a>
+          </div>
+          <img
+            class="size-80 mx-auto md:mx-0"
+            src="src/images/screen-2.svg"
+            alt="persons"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="p-16 bg-neutral-900 flex flex-col justify-center gap-8">
+      <div class="flex flex-col gap-4">
+        <p class="font-bold text-neutral-50 text-5xl text-center">
+          Voices of Success: What Our Clients Say
+        </p>
+        <p class="text-neutral-50/90 text-center">
+          Step into the world of our clients' experiences and hear firsthand
+          accounts of how our services have transformed their businesses.
+        </p>
+      </div>
+      <div
+        class="bg-secondary rounded-3xl flex flex-col gap-6 items-center p-16"
+      >
+        <img src="src/images/quotes.svg" alt="quotes" class="size-32" />
+        <p class="mx-10">
+          I've been using Sooner for several months now, and I can confidently
+          say it's been a game-changer for my business. The intuitive interface
+          and comprehensive features make it incredibly easy to manage our
+          workflow and streamline our operations. From project management to
+          team collaboration, Sooner has simplified every aspect of our
+          day-to-day tasks.
+        </p>
+        <div class="flex gap-4 items-center">
+          <img src="src/images/persons.svg" alt="persons" />
+          <p>Johnny Owens</p>
+        </div>
+      </div>
+      <div class="flex gap-6 text-neutral-50">
+        <div class="flex flex-col gap-4 items-center">
+          <img src="src/images/icon-1.svg" class="size-16" alt="icon" />
+          <p class="text-xl font-bold">Project management</p>
+          <p class="text-center">
+            Project management coordinates tasks for successful outcomes.
+          </p>
+        </div>
+        <div class="flex flex-col gap-4 items-center">
+          <img src="src/images/icon-2.svg" alt="icon" class="size-16" />
+          <p class="text-xl font-bold">Networking opportunities</p>
+          <p class="text-center">
+            Opportunities facilitate building professional relationships.
+          </p>
+        </div>
+        <div class="flex flex-col gap-4 items-center">
+          <img src="src/images/icon-3.svg" alt="icon" class="size-16" />
+          <p class="text-xl font-bold">Lead management</p>
+          <p class="text-center">
+            Lead management involves nurturing potential customers for
+            conversion.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="p-10 flex flex-col gap-16 items-center">
+      <div class="grid gap-6">
+        <p class="font-bold text-5xl text-center text-neutral-950">
+          Some of the things you may want to know
+        </p>
+        <p class="text-center text-neutral-950/90">
+          We answered questions so you don’t have to ask them.
+        </p>
+      </div>
+      <div class="grid gap-4 font-semibold max-w-5xl w-full px-8">
+        <div class="flex gap-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="flex-grow-0 size-10"
+          >
+            <path
+              fill="currentColor"
+              d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"
+            />
+          </svg>
+          <div>
+            <p>
+              How does your Team Management SaaS platform enhance collaboration?
+            </p>
+            <p class="font-normal">
+              Our platform offers real-time communication tools, centralized
+              task management, and collaborative document sharing features,
+              fostering seamless interaction among team members regardless of
+              location or time zone.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"
+            />
+          </svg>
+          <p>
+            What features does your software offer for task delegation and
+            tracking progress?
+          </p>
+        </div>
+        <div class="flex gap-4 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"
+            />
+          </svg>
+          <p>
+            How does your platform ensure data security and privacy for
+            sensitive team information?
+          </p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"
+            />
+          </svg>
+          <p>
+            What support and training options are available for implementing
+          </p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"
+            />
+          </svg>
+          <p>
+            Can your platform accommodate remote teams and flexible work
+            arrangements?
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
